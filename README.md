@@ -8,8 +8,7 @@
 
   <div class="faq-item">
     <button class="faq-question" onclick="toggleAnswer(this)">How do I submit an idea?</button>
-    <div class="faq-answer">Go to the category page and click on "Submit". Fill in the mandatory and relevant fields then click Submit. Check the user instruction [Submitting a new initiative.pdf](https://github.com/user-attachments/files/21197286/Submitting.a.new.initiative.pdf)
-</div>
+    <div class="faq-answer">Go to the category page and click on "Submit". Fill in the mandatory and relevant fields then click Submit. Check the user instruction on the InnovationCast Sharepoint page.</div>
   </div>
 
   <div class="faq-item">
