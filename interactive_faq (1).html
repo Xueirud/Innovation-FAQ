@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive FAQ</title>
+  <style>
+    .faq-question {
+      background-color: #004080;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      text-align: left;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 5px;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-left: 3px solid #004080;
+    }
+
+    .faq-item {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <h2>Frequently Asked Questions (FAQ)</h2>
+
+  <div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">How do I create an account?</button>
+    <div class="faq-answer">You can create an account by clicking on the "Sign Up" button on the login page and filling in your details.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">How do I submit an idea?</button>
+    <div class="faq-answer">Go to the category page and click on "Submit Idea". Fill in the title, description, and category, then click Submit.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">How do I vote on an idea?</button>
+    <div class="faq-answer">Click the thumbs-up icon next to the idea you support. Your vote will be counted immediately.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">How do I approve ideas?</button>
+    <div class="faq-answer">Navigate to the moderation panel, review the idea, and click "Approve" to publish it.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">How do I assign ideas to teams?</button>
+    <div class="faq-answer">Use the assignment feature in the idea details view to select a team and assign the idea.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">How do I change my password?</button>
+    <div class="faq-answer">Go to your profile settings and click "Change Password". Enter your current and new password to update.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">How do I adjust my notifications?</button>
+    <div class="faq-answer">In your profile settings, navigate to "Notifications" and customize your preferences.</div>
+  </div>
+</section>
+
+<script>
+  function toggleAnswer(button) {
+    const answer = button.nextElementSibling;
+    answer.style.display = answer.style.display === "block" ? "none" : "block";
+  }
+</script>
+
+</body>
+</html>
