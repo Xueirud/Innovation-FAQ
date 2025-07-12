@@ -1,4 +1,4 @@
-# InnovationCast-FAQ
+
   <h2>Frequently Asked Questions (FAQ)</h2>
 
   <div class="faq-item">
@@ -35,14 +35,3 @@
     <button class="faq-question" onclick="toggleAnswer(this)">How do I adjust my profile/ BIO?</button>
     <div class="faq-answer">In your profile settings, navigate to "account settings" and customize your preferences.</div>
   </div>
-</section>
-
-<script>
-  function toggleAnswer(button) {
-    const answer = button.nextElementSibling;
-    answer.style.display = answer.style.display === "block" ? "none" : "block";
-  }
-</script>
-
-</body>
-</html>
