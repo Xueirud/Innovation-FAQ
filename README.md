@@ -3,12 +3,13 @@
 
   <div class="faq-item">
     <button class="faq-question" onclick="toggleAnswer(this)">How do I create an account?</button>
-    <div class="faq-answer">You can request access via https://rsg.innovationcast.net/login? by clicking on the "request access" button on the login page and filling in your details.</div>
+    <div class="faq-answer">You can request access via https://rsg.innovationcast.net/login by clicking on the "request access" button on the login page and filling in your details.</div>
   </div>
 
   <div class="faq-item">
     <button class="faq-question" onclick="toggleAnswer(this)">How do I submit an idea?</button>
-    <div class="faq-answer">Go to the category page and click on "Submit". Fill in the mandatory and relevant fields then click Submit. Check the user instruction on this Sharepoint page.</div>
+    <div class="faq-answer">Go to the category page and click on "Submit". Fill in the mandatory and relevant fields then click Submit. Check the user instruction [Submitting a new initiative.pdf](https://github.com/user-attachments/files/21197286/Submitting.a.new.initiative.pdf)
+</div>
   </div>
 
   <div class="faq-item">
