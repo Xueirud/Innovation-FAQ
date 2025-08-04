@@ -35,3 +35,13 @@
     <button class="faq-question" onclick="toggleAnswer(this)">How do I adjust my profile/ BIO?</button>
     <div class="faq-answer">In your profile settings, navigate to "account settings" and customize your preferences.</div>
   </div>
+  
+<div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">I couldn’t create a target (I filled in all the boxes, but the system didn’t allow me).>
+    <div class="faq-answer">This is an authorization issue.Please contact Functional Application Management.</div>
+  </div>
+
+<div class="faq-item">
+    <button class="faq-question" onclick="toggleAnswer(this)">4.	How could we share documents?.>
+    <div class="faq-answer">You can add documents to an initiative by clicking Submit Initiative, if required selecting a channel, and then scrolling to the bottom of the page where you can upload attachments.</div>
+  </div>
