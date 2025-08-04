@@ -42,6 +42,6 @@
   </div>
 
 <div class="faq-item">
-    <button class="faq-question" onclick="toggleAnswer(this)">4.	How could we share documents?.>
+    <button class="faq-question" onclick="toggleAnswer(this)">How could we share documents?.>
     <div class="faq-answer">You can add documents to an initiative by clicking Submit Initiative, if required selecting a channel, and then scrolling to the bottom of the page where you can upload attachments.</div>
   </div>
